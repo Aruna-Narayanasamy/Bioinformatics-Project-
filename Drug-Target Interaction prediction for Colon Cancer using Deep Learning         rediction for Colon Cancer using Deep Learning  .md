@@ -8,7 +8,7 @@ Through the integration of *biological databases* , *molecular data*, and *AI-dr
 
 This repository includes files describing:
 - **Introduction** and **Objectives**
+- **Biological background of colon cancer**
 - **Computational Methodology** of this project
-- **Biological background of colon cancer** 
 
 By combining *Bioinformatics and *Deep Learning, this project supports the advancement of *precision medicine and *data-driven drug development in oncology.
