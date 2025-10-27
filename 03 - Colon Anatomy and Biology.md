@@ -26,6 +26,32 @@
 - **Sigmoid colon** – S-shaped part that connects to the rectum.
 ![Colon Anatomy and Biology](./images/Colon_parts.jpg)
 
+## Muscle and anatomical attachments of the Colon 
+
+## Muscle Layers of Colon
+The colon wall has *three main layers*:
+
+- **Mucosa** – Inner lining and it is the site of most cancers.
+- **Muscularis propria** – Smooth muscle layer. It has *circular and longitudinal layers* for peristalsis movement.
+- **Serosa / adventitia** – Outer connective tissue layer.
+
+*Clinical relevance:* Depth of tumor invasion into the muscularis propria determines *tumor staging* in colon cancer.
+
+## Vascular Supply of Colon
+- *Arterial supply:*
+   - **Midgut-derived colon** → **superior mesenteric artery (SMA)**
+   - **Hindgut-derived colon** → **inferior mesenteric artery (IMA)**
+- *Venous drainage: Parallels arteries and drains into the **portal vein** important in **liver metastasis**.
+
+## Nerve Supply of Colon
+- *Autonomic innervation* controls motility and secretion:
+  - **Parasympathetic:**
+     - Vagus nerve (midgut)
+     - Pelvic splanchnic nerves (hindgut)
+  - **Sympathetic:**- Thoracic and lumbar splanchnic nerves via mesenteric ganglia
+
+*Clinical relevance*: Tumor invasion into nerves may affect motility and causes pain or contribute to cancer spread.
+
 
 
   
