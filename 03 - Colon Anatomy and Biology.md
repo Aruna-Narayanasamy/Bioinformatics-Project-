@@ -8,7 +8,7 @@
 - **Transverse colon** – Crosses the abdominal cavity horizontally.  
 - **Descending colon** – Travels down the left side of the abdomen.  
 - **Sigmoid colon** – S-shaped part that connects to the rectum.
-![Colon Anatomy](./images/Colon_parts.png)
+![Colon Anatomy and Biology](./images/Colon_parts.jpg)
 
 
   
