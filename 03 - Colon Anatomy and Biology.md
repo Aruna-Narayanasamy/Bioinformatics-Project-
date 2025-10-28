@@ -56,11 +56,9 @@
  - Intraperitoneal — Completely covered by peritoneum.
  - Attached to the posterior pelvic wall by the sigmoid mesocolon (V-shaped fold).
  - This attachment allows mobility for fecal storage and evacuation.
-![Colon Anatomy and Biology](./images/Vascular_supply.jpg)
-
+   
 ## Muscle Layers of Colon
 The colon wall has *three main layers*:
-
 - **Mucosa** – Inner lining and it is the site of most cancers.
 - **Muscularis propria** – Smooth muscle layer. It has *circular and longitudinal layers* for peristalsis movement.
 - **Serosa / adventitia** – Outer connective tissue layer.
@@ -68,29 +66,49 @@ The colon wall has *three main layers*:
 *Clinical relevance:* Depth of tumor invasion into the muscularis propria determines *tumor staging* in colon cancer.
 
 ## Vascular Supply of Colon
- **Arterial supply:**
-    **1.Superior Mesenteric Artery (SMA)**
-      - *Ileocolic artery*: Supplies the cecum, appendix, and part of the ascending colon. 
-      - *Right colic artery*: Supplies the ascending colon and right colic flexure. 
-      - *Middle colic artery*: Supplies the transverse colon. 
-    **2.Inferior Mesenteric Artery (IMA)**
-      - *Left colic artery*: Supplies the descending colon and left colic flexure.
-      - *Sigmoid arteries*: Supply the sigmoid colon.
-      - *Superior rectal artery*: Supplies the upper rectum. 
-**Venous drainage:**
-   **1.Superior Mesenteric Vein (SMV)**
-      - *Right colic vein*: Supplies ascending colon.
-      - *Middle colic vein*: Supplies transverse colon.
-   **2.Inferior Messentric Vein (IMV)**
-      - *Left colic vein*: Supplies desending colon.
-      - *Sigmoid vein*: Supplies sigmoid colon.
+
+ **1.Arterial supply**:
+   
+   -**1.Superior Mesenteric Artery (SMA)**
+    
+   -**Ileocolic artery**: Supplies the cecum, appendix, and part of the ascending colon. 
+       
+   -**Right colic artery**: Supplies the ascending colon and right colic flexure.
+       
+   -**Middle colic artery**: Supplies the transverse colon.
+      
+  **2.Inferior Mesenteric Artery (IMA)**
+  
+   -**Left colic artery**: Supplies the descending colon and left colic flexure.
+    
+   -**Sigmoid arteries**: Supply the sigmoid colon.
+    
+   -**Superior rectal artery**: Supplies the upper rectum. 
+      
+**Venous drainage**:
+
+  **1.Superior Mesenteric Vein (SMV)**
+  
+   -**Right colic vein**: Supplies ascending colon.
+      
+   -**Middle colic vein**: Supplies transverse colon.
+      
+ **2.Inferior Messentric Vein (IMV)**
+ 
+   -**Left colic vein**: Supplies desending colon.
+      
+   -**Sigmoid vein**: Supplies sigmoid colon.
+
+![Colon Anatomy and Biology](./images/Vascular_supply.jpg)
 
 ## Nerve Supply of Colon
 - *Autonomic innervation* controls motility and secretion:
   - **Parasympathetic:**
-     - Vagus nerve (midgut)
-     - Pelvic splanchnic nerves (hindgut)
-  - **Sympathetic:**- Thoracic and lumbar splanchnic nerves via mesenteric ganglia
+     - **Vagus nerve**- Supplies the colon up to the left colic flexure.
+     - **Pelvic splanchnic nerves** - Supply the colon from the left colic flexure to the rectum.​
+  - **Sympathetic:**
+     - **Superior mesenteric plexus**: Supplies the colon up to the left colic flexure.​
+     - **Inferior mesenteric plexus**: Supplies the colon from the left colic flexure onward.
 
 *Clinical relevance*: Tumor invasion into nerves may affect motility and causes pain or contribute to cancer spread.
 
