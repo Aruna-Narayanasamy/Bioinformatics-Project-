@@ -111,7 +111,7 @@ The colon wall has *three main layers*:
      - **Inferior mesenteric plexus**: Supplies the colon from the left colic flexure onward.
 
 *Clinical relevance*: Tumor invasion into nerves may affect motility and causes pain or contribute to cancer spread.
-
+![Colon Anatomy and Biology](./images/nerve_supply.jpg)
 
 
   
