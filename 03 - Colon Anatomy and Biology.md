@@ -146,6 +146,8 @@ The colon wall has *Four main layers*:
     - **Main mesenteric nodes** : Situated along the superior and inferior mesenteric arteries.
   - Lymph from these nodes drains into the intestinal trunk then into the cisterna chyli and thoracic duct which return lymph to the venous system.
 
+ ![Colon Anatomy and Biology](./images/Colon_nodes.jpg)
+
 ## Clinical relevance of Colon anatomy in Colon cancer
   - The anatomy of the colon plays a key role in understanding the development, spread, and treatment of colon cancer.
   - **Tumor origin**: Most colon cancers begin in the mucosal epithelial layer where abnormal growth leads to polyps and malignant transformation.
