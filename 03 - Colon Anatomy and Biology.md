@@ -56,7 +56,8 @@
  - Intraperitoneal — Completely covered by peritoneum.
  - Attached to the posterior pelvic wall by the sigmoid mesocolon (V-shaped fold).
  - This attachment allows mobility for fecal storage and evacuation.
-   
+![Colon Anatomy and Biology](./images/Vascular_supply.jpg)
+
 ## Muscle Layers of Colon
 The colon wall has *three main layers*:
 
