@@ -26,7 +26,7 @@
 - 3.Descending colon 
 - 4.Sigmoid colon
 
-![Colon Anatomy and Biology](https://github.com/Aruna-Narayanasamy/Bioinformatics-Project-/blob/main/images/Colon%20nodes.jpg?raw=true
+![Colon Anatomy and Biology](https://github.com/Aruna-Narayanasamy/Bioinformatics-Project-/blob/main/images/Colon%20nodes.jpg?raw=true)
 
 ## Muscle and anatomical attachments of the Colon 
 **1.Ascending Colon**
