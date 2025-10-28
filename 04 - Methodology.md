@@ -1,5 +1,5 @@
 # Workflow
-    This project follows a *computational (in silico)* approach using deep learning to predict potential *drug–target interactions (DTIs)* for colon cancer. 
+  - This project follows a *computational (in silico)* approach using deep learning to predict potential *Drug–Target Interactions (DTIs)* for colon cancer. 
  ## key stages :
 
 **1.Target and Drug Identification**
