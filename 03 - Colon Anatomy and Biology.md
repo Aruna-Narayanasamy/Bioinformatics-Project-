@@ -56,12 +56,34 @@
  - Intraperitoneal — Completely covered by peritoneum.
  - Attached to the posterior pelvic wall by the sigmoid mesocolon (V-shaped fold).
  - This attachment allows mobility for fecal storage and evacuation.
+
+## Other structures of the Colon:
+ **External structures**:
+  - *Haustra* – sac-like pouches formed by taeniae coli.
+  - *Taeniae coli* – three longitudinal muscle bands that shorten the colon.
+  - *Appendices epiploicae* – fat-filled peritoneal pouches.
+  - *Colic flexures* – hepatic (right) and splenic (left) bends of the colon.
+
+## Histology of Colon
+The colon wall has *Four main layers*:
+- **Mucosa**
+  - Lined by simple columnar epithelium with numerous goblet cells that secrete mucus.
+  - Contains intestinal glands (crypts of Lieberkühn) — deep, straight tubular glands with absorptive and mucus-secreting cells.
+  - Lamina propria – connective tissue with immune cells.
+  - Muscularis mucosae – thin layer of smooth muscle causing local movement of mucosa.
+
+-**Submucosa**
+  - Made of loose connective tissue with blood vessels, lymphatics and Meissner’s nerve plexus.
+  - Supports the mucosa and provides elasticity.
    
-## Muscle Layers of Colon
-The colon wall has *three main layers*:
-- **Mucosa** – Inner lining and it is the site of most cancers.
-- **Muscularis propria** – Smooth muscle layer. It has *circular and longitudinal layers* for peristalsis movement.
-- **Serosa / adventitia** – Outer connective tissue layer.
+-**Muscularis propria**
+  - Has two smooth muscle layers:Inner circular layer – continuous and thick , Outer longitudinal layer – arranged as three taeniae coli.
+  - Contains Auerbach’s (myenteric) plexus between the layers to control peristalsis.
+  
+-**Serosa / adventitia** 
+  - Outer connective tissue layer. 
+  - Many goblet cells → lubrication for fecal passage.
+  - Deep crypts → continuous epithelial renewal.
 
 *Clinical relevance:* Depth of tumor invasion into the muscularis propria determines *tumor staging* in colon cancer.
 
@@ -111,6 +133,7 @@ The colon wall has *three main layers*:
      - **Inferior mesenteric plexus**: Supplies the colon from the left colic flexure onward.
 
 *Clinical relevance*: Tumor invasion into nerves may affect motility and causes pain or contribute to cancer spread.
+
 ![Colon Anatomy and Biology](./images/nerve_supply.jpg)
 
 
