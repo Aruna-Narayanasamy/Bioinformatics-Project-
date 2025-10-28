@@ -20,14 +20,43 @@
 - Between *weeks 5–10* the colon develops its *epithelial lining, muscular layers, and vasculature*.
   
 ## Parts of Colon
-- **Ascending colon** – Runs upward on the right side of the abdomen.  
-- **Transverse colon** – Crosses the abdominal cavity horizontally.  
-- **Descending colon** – Travels down the left side of the abdomen.  
-- **Sigmoid colon** – S-shaped part that connects to the rectum.
+- 1.Ascending colon
+- 2.Transverse colon 
+- 3.Descending colon 
+- 4.Sigmoid colon
+
 ![Colon Anatomy and Biology](./images/Colon_parts.jpg)
 
 ## Muscle and anatomical attachments of the Colon 
-
+**1.Ascending Colon**
+  - Located on the *right side of the abdomen*. Extends upward from the cecum (a pouch connected to the small intestine). *Absorbs remaining water and nutrients* from digested food. 
+  - It is retroperitoneaal (partly covered by peritoneum on its front and sides).
+  - *Anterior relations*: Coils of the small intestine.
+  - *Posterior attachment*: To the posterior abdominal wall by connective tissue (no mesentery).
+  - Muscles behind: Right quadratus lumborum and iliacus.
+    
+**2.Transverse Colon**
+  - *Runs across the upper abdomen from right to left*. Connected to the stomach above and the small intestine below.
+  - Plays a major role in *fermentation of undigested materials by gut bacteria*. The most mobile part of the colon. 
+  - Attached to the posterior abdominal wall by the transverse mesocolon (a double layer of peritoneum).
+  - Suspended between the hepatic flexure and splenic flexure.
+  - *Anterior relation*: Greater omentum and Anterior abdominal wall.
+  - *Posterior relation*: Pancreas and duodenum.
+    
+**3.Descending Colon**
+  - Lies on the *left side of the posterior abdominal wall*.
+  - Stores fecal material that will eventually move to the sigmoid colon.
+  - Retroperitoneal like the ascending colon.
+  - *Anterior relation*: Small intestine loops.
+  - *Posterior attachment*: To the posterior abdominal wall.
+  - Muscles behind: Left quadratus lumborum.
+    
+**4.Sigmoid Colon**
+ - Lies in the *left lower abdomen and pelvis*.
+ - Intraperitoneal — Completely covered by peritoneum.
+ - Attached to the posterior pelvic wall by the sigmoid mesocolon (V-shaped fold).
+ - This attachment allows mobility for fecal storage and evacuation.
+   
 ## Muscle Layers of Colon
 The colon wall has *three main layers*:
 
@@ -38,10 +67,22 @@ The colon wall has *three main layers*:
 *Clinical relevance:* Depth of tumor invasion into the muscularis propria determines *tumor staging* in colon cancer.
 
 ## Vascular Supply of Colon
-- *Arterial supply:*
-   - **Midgut-derived colon** → **superior mesenteric artery (SMA)**
-   - **Hindgut-derived colon** → **inferior mesenteric artery (IMA)**
-- *Venous drainage: Parallels arteries and drains into the **portal vein** important in **liver metastasis**.
+ **Arterial supply:**
+    **1.Superior Mesenteric Artery (SMA)**
+      - *Ileocolic artery*: Supplies the cecum, appendix, and part of the ascending colon. 
+      - *Right colic artery*: Supplies the ascending colon and right colic flexure. 
+      - *Middle colic artery*: Supplies the transverse colon. 
+    **2.Inferior Mesenteric Artery (IMA)**
+      - *Left colic artery*: Supplies the descending colon and left colic flexure.
+      - *Sigmoid arteries*: Supply the sigmoid colon.
+      - *Superior rectal artery*: Supplies the upper rectum. 
+**Venous drainage:**
+   **1.Superior Mesenteric Vein (SMV)**
+      - *Right colic vein*: Supplies ascending colon.
+      - *Middle colic vein*: Supplies transverse colon.
+   **2.Inferior Messentric Vein (IMV)**
+      - *Left colic vein*: Supplies desending colon.
+      - *Sigmoid vein*: Supplies sigmoid colon.
 
 ## Nerve Supply of Colon
 - *Autonomic innervation* controls motility and secretion:
