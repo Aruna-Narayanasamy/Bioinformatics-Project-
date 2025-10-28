@@ -64,6 +64,8 @@
   - *Appendices epiploicae* – fat-filled peritoneal pouches.
   - *Colic flexures* – hepatic (right) and splenic (left) bends of the colon.
 
+![Colon Anatomy and Biology](./images/Colon_anatomy.jpg)
+
 ## Histology of Colon
 The colon wall has *Four main layers*:
 - **Mucosa**
