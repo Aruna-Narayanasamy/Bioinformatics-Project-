@@ -89,7 +89,7 @@ The colon wall has *Four main layers*:
 
 *Clinical relevance:* Depth of tumor invasion into the muscularis propria determines *tumor staging* in colon cancer.
 
-![Colon Anatomy and Biology](./images/Colon_histology1.jpg)
+![Colon Anatomy and Biology](./images/Colon_histology.jpg)
 
 ## Vascular Supply of Colon
 
