@@ -47,7 +47,7 @@
 
 ## 6.Incorporating Mutation Changes into the Nucleotide Sequence
   - I manually opened each reference nucleotide FASTA in VS Code and edited the sequence for each gene’s mutations..
-  - Used the *HGVSg notation* to locate the exact nucleotide position that needed modification. 
+  - I used the *HGVSg notation* to locate the exact nucleotide position that needed modification. 
   - Different types of gene mutations require different sequence changes.
      ### In this analysis, I worked with three mutation types:
       - Missense mutations : Replaced a single nucleotide (E.g: C → T).
@@ -79,3 +79,14 @@
     
 ## 10.Summary
   I documented every step in analyzing colon cancer gene mutations: obtaining details from cBioPortal, verifying transcript identities through NCBI, manually introducing mutations into sequences, translating and aligning in MEGA, and evaluating impacts through UniProt/Pfam to clearly interpret the biological consequences of each variant
+
+
+  
+| S.No|Gene Name|Gene ID|Ref Transcript Id|Ref Protein ID|Uniprot ID|Pfam ID|Protein change|Amino Acid change|Mutation type|Nucleotide position and change|
+|-----|---------|-------|-----------------|--------------|----------|-------|--------------|-----------------|-------------|------------------------------|
+| 1   |   APC   | 324   | NM_000029.2     | NP_000029.2  | P25054   |PF16629| R876*        |  p.Arg876*      | Nonsense    |   c.2626C>T                  |
+| 2   |   KRAS  |  3845 | NM_004985.5     | NP_004976.2  | Q07983   |PF00071| G12C         |  p.Gly12Cys     | Missence    |    c.34G>T                   |
+| 3   |  TP53   | 7157  | NM_000546.6     | NP_000537.3  | P04637   |PF00870| Y220C        |  p.Tyr220Cys    | Missence    |    c.659A>G                  |
+| 4   |  SMAD4  | 4089  | NM_005359.6     | NP_005350.1  | Q13485   |PF03166| R361C        |  p.Arg361Cys    | Missence    |    c.1081C>T                 |     
+| 5   |  MLH1   | 4292  | NM_000249.4     | NP_000240.1  | P43246   |PF13589| G67R         |  p.Gly67Arg     | Missence    |    c.199G>A                  |
+| 6   |  MSH2   | 4436  | NM_000251.3     | NP_000242.1  | P43246   |PF00488| T806Kfs*4    |  p.Thr806Lysfs*4| Frame shift |    c.2415_2421del            |                                                                    | 7   |  MSH6   | 2956  | NM_000179       | NP_000170.1  | P52701   |PF                                                                                                   
