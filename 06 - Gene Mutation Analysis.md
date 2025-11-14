@@ -92,3 +92,11 @@
 | 5   |  MLH1   | 4292  | NM_000249.4     | NP_000240.1  | P43246   |PF13589|  G67R        |  p.Gly67Arg     | Missence    |    c.199G>A                  |
 | 6   |  MSH2   | 4436  | NM_000251.3     | NP_000242.1  | P43246   |PF00488|  T806Kfs*4   | p.Thr806Lysfs*4 | Frame shift |    c.2415_2421del            |                                                                   |  7  |  MSH6   | 2956  | NM_000179       | NP_000170.1  | P52701   |PF00488| E1322*       |  p.Glu1322*     | Nonsense    |    c.3964G>T                 |                                                                
 | 8   |  PMS2   | 5395  | NM_000526.2     | NP_000526.2  | P54278   |PF01119|  R211*       |  p.Arg211*      | Nonsense    |    c.631C>T                  |                         
+
+### Database and Tools used 
+- cBioPortal(TCGA-GDC-COAD)
+- NCBI RefSeq
+- UniProt
+- Pfam
+- ExPASy Translate
+- MEGA
