@@ -1,28 +1,26 @@
 # Gene Mutation Analysis
-  - This document summarizes the complete workflow I performed for colon cancer gene mutation analysis. Using the **cBioPortal (TCGA‑GDC COAD dataset)**.
-  -  I collected mutation information for key colorectal cancer–associated genes such as **APC, KRAS, TP53, SMAD4, MLH1, MSH2, and MSH6**.
-  -   The steps below describe how I downloaded *mutation data, selected transcripts, extracted reference sequences, manually edited mutations, translated protein sequences, and assessed functional impact of variants*.
-
+  - This document summarizes the complete workflow I performed for colon cancer gene mutation analysis using the **cBioPortal (TCGA‑GDC COAD dataset)**.
+  - Mutation information was collected for key colorectal cancer–associated genes such as **APC, KRAS, TP53, SMAD4, MLH1, MSH2, and MSH6**.
+  - The following steps describe how mutation data was downloaded, relevant transcripts selected, reference sequences retrieved, mutations manually incorporated, mutated protein sequences translated, and the functional impact of each variant assessed.
+    
 ## 1.Data Collection:
-  - Used cBioPortal (TCGA-GDC COAD dataset) to view and explore mutation information for genes associated with colon cancer.
-  - Noted that cBioPortal provides important details such as: Gene name, mutation type, HGVS notation, affected transcripts, and functional impact.
-  - Used *NCBI RefSeq* to check and confirm the correct transcript IDs (NM_ and NP_) for each gene, which are required for sequence retrieval and downstream mutation analysis.
-
+  - I Used cBioPortal (TCGA-GDC COAD dataset) to view and explore mutation information for colon cancer related genes.
+  - I obtained relevant details including gene name, mutation type, HGVS notation, affected transcripts.
+  - I Verified that transcript IDs in NCBI RefSeq (NM_ for mRNA, NP_ for protein) to ensure accuracy in sequence retrieval and mutation analysis.
+    
 ## 2.Selecting Gene and Transcripts
-  - Selected all key colon cancer–related genes are *APC, KRAS, TP53, SMAD4, MLH1, MSH2, MSH6*.
-  - For each selected gene, I identified the major transcript from the NCBI RefSeq database.
-  - Ensured that these transcript IDs (NM_) matched the transcript versions reported in cBioPortal (TCGA-GDC COAD).
-  - For each NM_ transcript, the corresponding NP_ protein accession was also noted.
-  - cBioPortal displays the lenth of amino acids for the selected transcript. It will help to confirm that the nucleotide (NM_) and protein (NP_) sequences belong to the same transcript version.
-  - Final transcript IDs were confirmed for downstream sequence retrieval and mutation analysis.
+  - I chosed major colon cancer–related genes: *APC, KRAS, TP53, SMAD4, MLH1, MSH2, MSH6*.
+  - For each gene, I identified and verified the main transcript (NM_) in NCBI RefSeq, ensuring it matched cBioPortal’s dataset.
+  - I retrieved the corresponding NP_ protein accession for each transcript.
+  - I cross-checked the amino acid length in cBioPortal to make sure NM_ and NP_ IDs belonged to the same transcript version.
+  - After verification, I finalized the transcript IDs for mutation analysis.
     
 ## 3.Downloading Reference Nucleotide and Protein Sequence (FASTA)
-  - Using the NCBI database, I searched for each colon cancer–related gene.
-  - For every gene multiple reference sequence records were available in NCBI.
-  - From these, I selected the transcript ID (NM_) that exactly matched the transcript used in cBioPortal (TCGA-GDC COAD) mutation data.
-  - After confirming the correct transcript, I downloaded the reference nucleotide sequence and also downloded the corresponding refereence protein sequence for the same transcript.
-  - Saved each sequence with clear filenames (E.g: APC-Nucleotide-normal.fasta, APC-Protein-normal.fasta) for further mutation editing and comparison.
-
+  - For each gene, I searched the NCBI database.
+  - I selected the reference sequence record (NM_) exactly matching the transcript used in cBioPortal.
+  - I downloaded both the reference nucleotide (NM_) and protein (NP_) sequences in FASTA format.
+  - I saved these with clear filenames for individual genes (e.g., APC-Nucleotide-Normal.fasta, APC-Protein-Normal.fasta).
+    
 ## 4.Mutation Data Extraction
   - Downloaded the mutation data (TSV file) for colon cancer (TCGA-GDC COAD) from cBioPortal for each gene.
   - The file contained detailed information about each mutation.
@@ -44,12 +42,11 @@
 
   - cBioPortal also provides visual indicators that highlight the significance of each mutation such as *hotspot or predicted functional impact* and these details were considered while reviewing mutation importance.
   - Using the protein length shown in cBioPortal, I identified the correct *UniProt ID for each protein*.
-  - From UniProt, I retrieved the associated *Pfam ID*. In Pfam, I checked for domains whether the mutations occurred within important functional regions.
-  -  Finalized specific mutations for detailed downstream analysis (E.g: APC R876*, KRAS G12C, TP53 Y220C, SMAD4 R361C, MLH1 G67R, MSH2 T806Kfs*4, MSH6 E1322*, PMS2 R211**).
+  - I retrieved UniProt IDs and Pfam domains, confirming mutation locations inside conserved or functionally key regions.
+  -  Finaly, I selected specific mutations for analysis (E.g: APC R876*, KRAS G12C, TP53 Y220C, SMAD4 R361C, MLH1 G67R, MSH2 T806Kfs*4, MSH6 E1322*, PMS2 R211**).
 
 ## 6.Incorporating Mutation Changes into the Nucleotide Sequence
-  - Opened the downloaded reference nucleotide FASTA file in *text editor(VS Code) and manually edited the sequence*. This was done separetly for each gene.
-  - Identified the mutation type from cBioPortal.
+  - I manually opened each reference nucleotide FASTA in VS Code and edited the sequence for each gene’s mutations..
   - Used the *HGVSg notation* to locate the exact nucleotide position that needed modification. 
   - Different types of gene mutations require different sequence changes.
      ### In this analysis, I worked with three mutation types:
@@ -57,18 +54,17 @@
       - Nonsense mutations : Modified the codon to introduce a premature stop codon (E.g: Changing a codon into TGA/TAA/TAG).
       - Frameshift mutations : Added or Deleted the exact nucleotides as specified in the *HGVSc* description
         
-  - Saved each mutated FASTA files separately for comparison with the refereance sequence.
+  - I Saved each mutated FASTA files separately for comparison with the refereance sequence.
 
 ## 7.Translating Nucleotide Sequence to Protein Sequence
-  - Since the reference protein sequence (NP_) was already downloaded from NCBI in FASTA format. Only the mutated nucleotide FASTA sequence needed translation.
-  - I Used an online translation tool (ExPASy Translate) to translate the mutated nucleotide sequence into its corresponding mutated protein sequence.
-  - Ensured the correct reading frame was selected based on the start codon (ATG).
-  - In Expasy Tranlate tool results Confirmes that the observed amino acid changes matched with the HGVS protein notation (e.g., p.R876*, p.G12C, p.Y220C).
-  - Saved the mutated protein sequence as a FASTA file for further alignment in MEGA for comparing the NCBI reference protein sequence with the translated mutated protein sequence to identify the amino acid change.
+  - Since I already had the reference protein sequence (NP_), I focused on translating the mutated nucleotide FASTA sequence.
+  - I used the online tranlation tool( ExPASy Translate tool) for  verifying the correct reading frame started at the ATG codon.
+  - I confirmed that the translated sequence reflected the anticipated amino acid change.
+  - I saved the mutated protein FASTA for sequence alignment.
      
 ## 8.Identifying the Amino Acid Change
-  - The reference and the mutated protein sequence as well as referance and mutated nucleotide sequences imported into MEGA software for alignment and comparison.
-  - Aligned the sequences to visually identify the exact amino acid position affected by the mutation.
+  - I imported both the reference and the mutated protein sequence as well as referance and mutated nucleotide sequences into MEGA software for alignment and comparison.
+  - I Aligned the sequences to visually identify the exact amino acid position affected by the mutation.
     ### Observed whether the mutation resulted in:
      - Missense change (one amino acid replaced by another)
      - Nonsense change (amino acid replaced by a stop codon *)
@@ -78,13 +74,8 @@
   - Verified that the amino acid change identified in MEGA matched the HGVS protein notation from cBioPortal.
 
 ## 9.Predicting Functional Changes
-  - For each mutation, I noted the functional effect based on the mutation type (missense, nonsense, frameshift).
-  - Checked whether the mutation was located inside a functional domain using Pfam information taken earlier.
-  - Observed amino acid changes from the MEGA alignment to see if important residues were altered.
-  - Based on this information we can predict the fuctional changes.
-
+  - For each mutation, I noted the predicted functional effects by checking the mutation type, Pfam domain overlap, and the amino acid changes seen in MEGA.
+  - I used this information to interpret the functional significance of these mutations.
+    
 ## 10.Summary
-  - This workflow outlines the steps used to analyze colon cancer gene mutations. Mutation details were taken from cBioPortal, and the corresponding reference nucleotide and protein sequences were downloaded from NCBI using the correct transcript IDs.
-  - Mutations were manually introduced into the reference nucleotide sequences and the mutated sequences were translated to protein.
-  - Both nucleotide and protein sequences were aligned in MEGA to confirm the changes.
-  - Functional domains were checked using UniProt/Pfam, and a simple functional impact description was recorded for each mutation. All files were saved, organized, and documented for final reporting.
+  I documented every step in analyzing colon cancer gene mutations: obtaining details from cBioPortal, verifying transcript identities through NCBI, manually introducing mutations into sequences, translating and aligning in MEGA, and evaluating impacts through UniProt/Pfam to clearly interpret the biological consequences of each variant
