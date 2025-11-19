@@ -83,15 +83,14 @@
 ## Gene Mutation Information
 
 
-| S.No|Gene Name|Gene ID|Ref Transcript Id|Ref Protein ID|Uniprot ID|Pfam ID|Protein change|Amino Acid change|Mutation type|Nucleotide position and change|
-|-----|---------|-------|-----------------|--------------|----------|-------|--------------|-----------------|-------------|------------------------------|
-| 1   |  APC    | 324   | NM_000029.2     | NP_000029.2  | P25054   |PF16629|  R876*       |  p.Arg876*      | Nonsense    |   c.2626C>T                  |
-| 2   |  KRAS   | 3845  | NM_004985.5     | NP_004976.2  | Q07983   |PF00071|  G12C        |  p.Gly12Cys     | Missence    |    c.34G>T                   |
-| 3   |  TP53   | 7157  | NM_000546.6     | NP_000537.3  | P04637   |PF00870|  Y220C       |  p.Tyr220Cys    | Missence    |    c.659A>G                  |
-| 4   |  SMAD4  | 4089  | NM_005359.6     | NP_005350.1  | Q13485   |PF03166|  R361C       |  p.Arg361Cys    | Missence    |    c.1081C>T                 |     
-| 5   |  MLH1   | 4292  | NM_000249.4     | NP_000240.1  | P43246   |PF13589|  G67R        |  p.Gly67Arg     | Missence    |    c.199G>A                  |
-| 6   |  MSH2   | 4436  | NM_000251.3     | NP_000242.1  | P43246   |PF00488|  T806Kfs*4   | p.Thr806Lysfs*4 | Frame shift |    c.2415_2421del            |                                                                   |  7  |  MSH6   | 2956  | NM_000179       | NP_000170.1  | P52701   |PF00488| E1322*       |  p.Glu1322*     | Nonsense    |    c.3964G>T                 |                                                                
-| 8   |  PMS2   | 5395  | NM_000526.2     | NP_000526.2  | P54278   |PF01119|  R211*       |  p.Arg211*      | Nonsense    |    c.631C>T                  |                         
+| S.No|Gene Name|Gene ID|Ref Transcript Id|Ref Protein ID|Uniprot ID|Pfam ID|Protein change|Amino Acid change|Mutation type|Nucleotide position and change|SNP ID      |PDB ID|
+|-----|---------|-------|-----------------|--------------|----------|-------|--------------|-----------------|-------------|------------------------------|------------|------|
+| 1   |  APC    | 324   | NM_000029.2     | NP_000029.2  | P25054   |PF16629|  R876*       |  p.Arg876*      | Nonsense    |   c.2626C>T                  |rs121913333 |3T7U  |
+| 2   |  KRAS   | 3845  | NM_004985.5     | NP_004976.2  | Q07983   |PF00071|  G12C        |  p.Gly12Cys     | Missence    |    c.34G>T                   |rs121913530 |6OI3  |
+| 3   |  TP53   | 7157  | NM_000546.6     | NP_000537.3  | P04637   |PF00870|  Y220C       |  p.Tyr220Cys    | Missence    |    c.659A>G                  |rs121912666 |1GZH  |
+| 4   |  SMAD4  | 4089  | NM_005359.6     | NP_005350.1  | Q13485   |PF03166|  R361C       |  p.Arg361Cys    | Missence    |    c.1081C>T                 |rs80338963  |1DD1  |    
+| 5   |  MLH1   | 4292  | NM_000249.4     | NP_000240.1  | P43246   |PF13589|  G67R        |  p.Gly67Arg     | Missence    |    c.199G>A                  |rs63750206  |4PLA  |
+| 6   |  MSH2   | 4436  | NM_000251.3     | NP_000242.1  | P43246   |PF00488|  T806Kfs*4   | p.Thr806Lysfs*4 | Frame shift |    c.2415_2421del            |            |2O8B  |                                               |  7  |  MSH6   | 2956  | NM_000179       | NP_000170.1  | P52701   |PF00488| E1322*       |  p.Glu1322*     | Nonsense    |    c.3964G>T                 |rs1553333707|2O8B  |                                               | 8   |  PMS2   | 5395  | NM_000526.2     | NP_000526.2  | P54278   |PF01119|  R211*       |  p.Arg211*      | Nonsense    |    c.631C>T                  |rs760228510 |1EA6  |                         
 
 ### Database and Tools used 
 - cBioPortal(TCGA-GDC-COAD)
