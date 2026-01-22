@@ -57,6 +57,7 @@ Future stages of the project will include:
 ---
 
 ## Repository Structure
+
 |---01. Drug-Target Interaction prediction for Colon Cancer using Deep Learning.md
 
 |---02. Colon Anatomy and Biology.md
@@ -72,9 +73,6 @@ Future stages of the project will include:
 |---07. APC_Structural_Analysis.md
 
 |---08. KRAS_Structural_Analysis.md
-
-
-
 
 ## Workflow Overview
 
@@ -104,16 +102,6 @@ Detailed documentation for each stage is provided below:
 - [07. Structural Analysis of APC](07.%20Structural%20Analysis%20of%20APC.md)
 - [08. Structural Analysis of KRAS](08.%20Structural%20Analysis%20of%20KRAS.md)
  
-
-- **Variant Annotation (VEP)**  
-  `VEP_Annotation.md`
-
-- **Structural Analysis of APC**  
-  `APC_Structural_Analysis.md`
-
-- **Structural Analysis of KRAS**  
-  `KRAS_Structural_Analysis.md`
-
 ---
 
 ## Tools and Databases Used
