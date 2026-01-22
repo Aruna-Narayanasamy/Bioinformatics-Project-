@@ -95,9 +95,15 @@ Future stages of the project will include:
 
 Detailed documentation for each stage is provided below:
 
-- [01. Project Overview](01. Drug-Target Interation Prediction for Colon Cancer using Deep Learning.md)
-- [02. Colon Anatomy and Biology](02. Colon Anatomy and Biology.md)
-- 
+- [01. Project Overview](01.%20Drug-Target%20Interaction%20prediction%20for%20Colon%20Cancer%20using%20Deep%20Learning.md)
+- [02. Colon Anatomy and Biology](02.%20Colon%20Anatomy%20and%20Biology.md)
+- [03. Colon cancer pathway](03.%20Colon%20cancer%20pathway.md)
+- [04. Gene Mutation Analysis](04.%20Gene%20Mutation%20Analysis.md)
+- [05. Variant Effect Predictor](05.%20Variant%20Effect%20Predictor(VEP).md)
+- [06. Protein Structure Analysis](06.%20Protein%20Structure%20Analysis.md)
+- [07. Structural Analysis of APC](07.%20Structural%20Analysis%20of%20APC.md)
+- [08. Structural Analysis of KRAS](08.%20Structural%20Analysis%20of%20KRAS.md)
+ 
 
 - **Variant Annotation (VEP)**  
   `VEP_Annotation.md`
