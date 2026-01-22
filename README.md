@@ -57,14 +57,82 @@ Future stages of the project will include:
 ---
 
 ## Repository Structure
-|---01- Drug-Target Interaction prediction for Colon Cancer using Deep Learning.md
-|--- 02- Introduction and Objective.md
-├---03 - Colon Anatomy and Biology.md
-|--- 04. Colon cancer pathway.md
-|---05 - Methodology.md
-|---06 - Gene Mutation Analysis.md
-|---07 - Protein Structural Analysis.md
-├── APC_Structural_Analysis.md
-├── KRAS_Structural_Analysis.md
+|---01 - Drug-Target Interaction prediction for Colon Cancer using Deep Learning.md
 
+|---02 - Introduction and Objective.md
+
+|---03 - Colon Anatomy and Biology.md
+
+|---04 - Colon cancer pathway.md
+
+|---05 - Methodology.md
+
+|---06 - Gene Mutation Analysis.md
+
+|---07 - Protein Structural Analysis.md
+
+|---08 - APC_Structural_Analysis.md
+
+|---09 - KRAS_Structural_Analysis.md
+
+
+
+
+## Workflow Overview
+
+**High-Level Computational Workflow**
+
+1. Colon cancer gene selection  
+2. Mutation data collection (TCGA via cBioPortal)  
+3. Transcript verification (NCBI RefSeq)  
+4. Variant annotation (Ensembl VEP)  
+5. Mutation prioritization  
+6. Protein structure modeling and visualization  
+7. Structural interpretation of mutation effects  
+8. (Planned) Deep learning–based DTI prediction  
+
+---
+
+## Documentation
+
+Detailed documentation for each stage is provided below:
+
+- **Gene Mutation Analysis**  
+  `06 - Gene Mutation Analysis.md`
+
+- **Variant Annotation (VEP)**  
+  `VEP_Annotation.md`
+
+- **Structural Analysis of APC**  
+  `APC_Structural_Analysis.md`
+
+- **Structural Analysis of KRAS**  
+  `KRAS_Structural_Analysis.md`
+
+---
+
+## Tools and Databases Used
+
+### Databases
+- cBioPortal (TCGA-GDC COAD)
+- NCBI RefSeq
+- Ensembl
+- UniProt
+- Pfam
+- Protein Data Bank (PDB)
+
+### Software and Tools
+- Ensembl Variant Effect Predictor (VEP)
+- PyMOL Molecular Graphics System
+- SWISS-MODEL
+- MEGA (sequence alignment)
+
+---
+
+## References
+
+- The Cancer Genome Atlas (TCGA)
+- Ensembl Variant Effect Predictor documentation
+- Protein Data Bank
+- SWISS-MODEL documentation
 
