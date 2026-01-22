@@ -95,7 +95,7 @@ Future stages of the project will include:
 
 Detailed documentation for each stage is provided below:
 
-- [01. Project Overview](01. Drug Target Interation Prediction for Colon Cancer using Deep Learning.md)
+- [01. Project Overview](01. Drug-Target Interation Prediction for Colon Cancer using Deep Learning.md)
 - [02. Colon Anatomy and Biology](02. Colon Anatomy and Biology.md)
 - 
 
